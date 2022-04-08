@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagio box</title>
+    <link href="style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+    <style>
+        .w3-reding,
+        .w3-hover-reding:hover {
+          color: #8bbb6b !important;
+          border-bottom: 1px solid #8bbb6b;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="myHeader" class="header-area" >
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <img src="images/imagiobox_logo.png" alt="logo" width="200px" style="margin-top:12px">
+                        <ul class="nav" style="margin-top:12px">
+                            <li><a href="index.html" class="active">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Shop-Now</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">AVES</a></li>
+                            <a class="menu-trigger">
+                                <span>Menu</span>
+                            </a> 
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="page-content">
+        <!-- background images -->
+        <section class="section-relative">
+            <div class="swiper-container" style="height: 480px; margin-top:80px">
+
+                <div class="mySlides fade">
+                    <img src="images/carouselimg1.jpg" style="width:100%">
+                </div>
+                
+                <div class="mySlides fade">
+                    <img src="images/carouselimg2.jpg" style="width:100%">
+                </div>
+                
+                <div class="mySlides fade">
+                    <img src="images/carouselimg3.jpg" style="width:100%">
+                </div>
+            
+                <div class="swiper-pagination">
+                    <span class="swiper-pagination-bullet dot"></span> 
+                    <span class="swiper-pagination-bullet dot"></span> 
+                    <span class="swiper-pagination-bullet dot"></span> 
+                </div>
+            
+            </div>
+            <div class="section-center-absolute">
+                <div class="text-extra-big text-white font-accent">Unique creations</div>
+                <h5 class="text-regular text-white offset-top-10 text-center">Inspiring Creativity Through Arts</h5>
+                <div class="shell offset-top-41 offset-sm-top-66">
+                  <div class="range range-xs-center">
+                    <div class="cell-sm-6 cell-md-5 cell-lg-4 cell-xl-5"><a class="btn btn-block btn-primary btn-ellipse" href="#">shop now</a></div>
+                    <div class="cell-sm-6 cell-md-5 cell-lg-4 cell-xl-5 offset-top-20 offset-sm-top-0"><a class="btn btn-block btn-default btn-ellipse btn-anis-effect" href="#">view blog</a></div>
+                  </div>
+                </div>
+            </div>
+            
+        </section>
+        <!-- our Shop -->
+        <section class="section-98 section-sm-top-110 section-sm-bottom-124">
+            <div class="shell">
+                <div class="text-center">
+                    <h1 class="text-between">Our Shop</h1>
+                </div>
+                <div class="offset-top-30">
+                    <div class="responsive-tabs responsive-tabs-classic" data-type="horizontal" style="width: 100%;">
+                        <ul class="resp-tabs-list text-center">
+                            <li class="resp-tab-item tablink w3-reding" onclick="openProducts(event,'NewArrivals')">NewArrivals</li>
+                            <li class="resp-tab-item tablink" onclick="openProducts(event,'Popular')">Popular</li>
+                            <li class="resp-tab-item tablink" onclick="openProducts(event,'BestSellers')">BestSellers</li>
+                            <li class="resp-tab-item tablink" onclick="openProducts(event,'Specials')">Specials</li>
+                        </ul>
+                        <div class="resp-tabs-container text-left">
+                            <div id="NewArrivals" class="shopproduct">
+                                <div class="resp-tab-content">
+                                <div class="range">
+                                    <div class="cell-sm-6 cell-md-3">
+                                    <!-- Product-->
+                                    <div class="product product-grid product-grid-type-2">
+                                        <!-- Product Image-->
+                                        <div class="product-image"><img class="img-responsive product-image-area"
+                                            src="images/productimg1.png" alt="">
+                                        <!-- Product Label--><span
+                                            class="product-label label-custom label-lg-custom label-rounded-custom label-danger">Sale</span>
+                                        </div>
+                                        <!-- Product Rating-->
+                                        <div class="product-rating offset-top-20">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            
+                                        </div>
+                                        <!-- Product Title-->
+                                        <div class="product-title offset-top-4 text-primary"><a class="big" href="#">Wood Box
+                                            Painting Set 12 Oil Colors</a>
+                                        </div>
+                                        <!-- Product price-->
+                                        <div class="product-price text-bold offset-top-20"><span class="h5 product-price-new">$254.00</span><span
+                                            class="product-price-old text-dark">$319.00</span>
+                                        </div>
+                                        <div class="product-block-hover">
+                                        <!-- Product Add To cart--><a
+                                            class="btn btn-icon btn-icon-left btn-primary product-btn btn-ellipse offset-top-20"
+                                            href="#"><span class="fa fa-shopping-cart"></span>Add to Cart</a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="cell-sm-6 cell-md-3 offset-top-41 offset-sm-top-0">
+                                    <!-- Product-->
+                                    <div class="product product-grid product-grid-type-2">
+                                        <!-- Product Image-->
+                                        <div class="product-image"><img class="img-responsive product-image-area"
+                                            src="images/productimg2.png" alt="">
+                                        <!-- Product Label--><span
+                                            class="product-label label-custom label-lg-custom label-rounded-custom label-info">New</span>
+                                        </div>
+                                        <!-- Product Rating-->
+                                        <div class="product-rating offset-top-20">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            </div>
+                                        <!-- Product Title-->
+                                        <div class="product-title offset-top-4 text-primary"><a class="big" href="#">Artist Paint
+                                            Brush Set Nylon Hair Oil
+                                            Painting Supplies</a></div>
+                                        <!-- Product price-->
+                                        <div class="product-price text-bold offset-top-20"><span class="h5 product-price-new">$124.00</span><span
+                                            class="product-price-old text-dark">$219.00</span>
+                                        </div>
+                                        <div class="product-block-hover">
+                                        <!-- Product Add To cart--><a
+                                            class="btn btn-icon btn-icon-left btn-primary product-btn btn-ellipse offset-top-20"
+                                            href="#"><span class="fa fa-shopping-cart"></span>Add to Cart</a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="cell-sm-6 cell-md-3 offset-top-41 offset-md-top-0">
+                                        <!-- Product-->
+                                        <div class="product product-grid product-grid-type-2">
+                                          <!-- Product Image-->
+                                          <div class="product-image"><img class="img-responsive product-image-area"
+                                             src="images/productimg3.png" alt="">
+                                            <!-- Product Label--><span class="product-label label-custom label-lg-custom label-rounded-custom label-danger">Sale</span>
+                                          </div>
+                                          <!-- Product Rating-->
+                                          <div class="product-rating offset-top-20">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            </div>
+                                          <!-- Product Title-->
+                                          <div class="product-title offset-top-4 text-primary"><a class="big" href="#">Castle Art Supplies Acrylic Paint Set Pack of 12 Colors</a></div>
+                                          <!-- Product price-->
+                                          <div class="product-price text-bold offset-top-20"><span class="h5">$289.00</span>
+                                          </div>
+                                          <div class="product-block-hover">
+                                            <!-- Product Add To cart--><a class="btn btn-icon btn-icon-left btn-primary product-btn btn-ellipse offset-top-20" href="#"><span class="icon mdi mdi-cart"></span>Add to Cart</a>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="cell-sm-6 cell-md-3 offset-top-41 offset-md-top-0">
+                                        <!-- Product-->
+                                        <div class="product product-grid product-grid-type-2">
+                                            <!-- Product Image-->
+                                            <div class="product-image"><img class="img-responsive product-image-area"
+                                                    src="images/productimg4.png"
+                                                    alt="">
+                                                <!-- Product Label--><span
+                                                    class="product-label label-custom label-lg-custom label-rounded-custom label-info">New</span>
+                                            </div>
+                                            <!-- Product Rating-->
+                                            <div class="product-rating offset-top-20">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                
+                                                </div>
+                                            <!-- Product Title-->
+                                            <div class="product-title offset-top-4 text-primary"><a class="big"
+                                                    href="#">Color Set Marco Renoir Fine Art Drawing
+                                                    Oil Base Pencils</a></div>
+                                            <!-- Product price-->
+                                            <div class="product-price text-bold offset-top-20"><span
+                                                    class="h5 product-price-new">$189.00</span><span
+                                                    class="product-price-old text-dark">$219.00</span>
+                                            </div>
+                                            <div class="product-block-hover">
+                                                <!-- Product Add To cart--><a
+                                                    class="btn btn-icon btn-icon-left btn-primary product-btn btn-ellipse offset-top-20"
+                                                    href="#"><span
+                                                        class="fa fa-shopping-cart"></span>Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            
+                            <div id="Popular" class="shopproduct" style="display:none">
+                                <div class="resp-tab-content">
+                                <div class="range">
+                                    <div class="cell-sm-6 cell-md-3">
+                                        <!-- Product-->
+                                        <div class="product product-grid product-grid-type-2">
+                                            <!-- Product Image-->
+                                            <div class="product-image"><img class="img-responsive product-image-area"
+                                                    src="images/productimg1.png"
+                                                    alt="">
+                                                <!-- Product Label--><span
+                                                    class="product-label label-custom label-lg-custom label-rounded-custom label-danger">Sale</span>
+                                            </div>
+                                            <!-- Product Rating-->
+                                            <div class="product-rating offset-top-20">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                            </div>
+                                            <!-- Product Title-->
+                                            <div class="product-title offset-top-4 text-primary"><a class="big"
+                                                    href="#">Wood Box Painting Set 12 Oil Colors</a>
+                                            </div>
+                                            <!-- Product price-->
+                                            <div class="product-price text-bold offset-top-20"><span
+                                                    class="h5 product-price-new">$254.00</span><span
+                                                    class="product-price-old text-dark">$319.00</span>
+                                            </div>
+                                            <div class="product-block-hover">
+                                                <!-- Product Add To cart--><a
+                                                    class="btn btn-icon btn-icon-left btn-primary product-btn btn-ellipse offset-top-20"
+                                                    href="#"><span
+                                                        class="fa fa-shopping-cart"></span>Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cell-sm-6 cell-md-3 offset-top-41 offset-sm-top-0">
+                                        <!-- Product-->
+                                        <div class="product product-grid product-grid-type-2">
+                                            <!-- Product Image-->
+                                            <div class="product-image"><img class="img-responsive product-image-area"
+                                                    src="images/productimg3.png"
+                                                    alt="">
+                                                <!-- Product Label--><span
+                                                    class="product-label label-custom label-lg-custom label-rounded-custom label-info">New</span>
+                                            </div>
+                                            <!-- Product Rating-->
+                                            <div class="product-rating offset-top-20">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                
+                                                </div>
+                                            <!-- Product Title-->
+                                            <div class="product-title offset-top-4 text-primary"><a class="big"
+                                                    href="#">Artist Paint Brush Set Nylon Hair Oil
+                                                    Painting Supplies</a></div>
+                                            <!-- Product price-->
+                                            <div class="product-price text-bold offset-top-20"><span
+                                                    class="h5 product-price-new">$124.00</span><span
+                                                    class="product-price-old text-dark">$219.00</span>
+                                            </div>
+                                            <div class="product-block-hover">
+                                                <!-- Product Add To cart--><a
+                                                    class="btn btn-icon btn-icon-left btn-primary product-btn btn-ellipse offset-top-20"
+                                                    href="#"><span
+                                                        class="fa fa-shopping-cart"></span>Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            </div>
+                            
+                            <div id="BestSellers" class="shopproduct" style="display:none">
+                                <div class="resp-tab-content">
+                                <div class="range">
+                                    <div class="cell-sm-6 cell-md-3">
+                                        <!-- Product-->
+                                        <div class="product product-grid product-grid-type-2">
+                                            <!-- Product Image-->
+                                            <div class="product-image"><img class="img-responsive product-image-area"
+                                                    src="images/productimg1.png"
+                                                    alt="">
+                                                <!-- Product Label--><span
+                                                    class="product-label label-custom label-lg-custom label-rounded-custom label-danger">Sale</span>
+                                            </div>
+                                            <!-- Product Rating-->
+                                            <div class="product-rating offset-top-20">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                
+                                                </div>
+                                            <!-- Product Title-->
+                                            <div class="product-title offset-top-4 text-primary"><a class="big"
+                                                    href="#">Wood Box Painting Set 12 Oil Colors</a>
+                                            </div>
+                                            <!-- Product price-->
+                                            <div class="product-price text-bold offset-top-20"><span
+                                                    class="h5 product-price-new">$254.00</span><span
+                                                    class="product-price-old text-dark">$319.00</span>
+                                            </div>
+                                            <div class="product-block-hover">
+                                                <!-- Product Add To cart--><a
+                                                    class="btn btn-icon btn-icon-left btn-primary product-btn btn-ellipse offset-top-20"
+                                                    href="#"><span
+                                                        class="fa fa-shopping-cart"></span>Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div  class="cell-sm-6 cell-md-3 offset-top-41 offset-md-top-0">
+                                        <!-- Product-->
+                                        <div class="product product-grid product-grid-type-2">
+                                            <!-- Product Image-->
+                                            <div class="product-image"><img class="img-responsive product-image-area"
+                                                    src="images/productimg3.png"
+                                                    alt="">
+                                                <!-- Product Label--><span
+                                                    class="product-label label-custom label-lg-custom label-rounded-custom label-danger">Sale</span>
+                                            </div>
+                                            <!-- Product Rating-->
+                                            <div class="product-rating offset-top-20">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                
+                                                </div>
+                                            <!-- Product Title-->
+                                            <div class="product-title offset-top-4 text-primary"><a class="big"
+                                                    href="#">Castle Art Supplies Acrylic Paint Set
+                                                    Pack of 12 Colors</a></div>
+                                            <!-- Product price-->
+                                            <div class="product-price text-bold offset-top-20"><span
+                                                    class="h5">$289.00</span>
+                                            </div>
+                                            <div class="product-block-hover">
+                                                <!-- Product Add To cart--><a
+                                                    class="btn btn-icon btn-icon-left btn-primary product-btn btn-ellipse offset-top-20"
+                                                    href="#"><span
+                                                        class="fa fa-shopping-cart"></span>Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cell-sm-6 cell-md-3 offset-top-41 offset-md-top-0">
+                                        <!-- Product-->
+                                        <div class="product product-grid product-grid-type-2">
+                                            <!-- Product Image-->
+                                            <div class="product-image"><img class="img-responsive product-image-area"
+                                                    src="images/productimg4.png"
+                                                    alt="">
+                                                <!-- Product Label--><span
+                                                    class="product-label label-custom label-lg-custom label-rounded-custom label-info">New</span>
+                                            </div>
+                                            <!-- Product Rating-->
+                                            <div class="product-rating offset-top-20">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                
+                                                </div>
+                                            <!-- Product Title-->
+                                            <div class="product-title offset-top-4 text-primary"><a class="big"
+                                                    href="#">Color Set Marco Renoir Fine Art Drawing
+                                                    Oil Base Pencils</a></div>
+                                            <!-- Product price-->
+                                            <div class="product-price text-bold offset-top-20"><span
+                                                    class="h5 product-price-new">$189.00</span><span
+                                                    class="product-price-old text-dark">$219.00</span>
+                                            </div>
+                                            <div class="product-block-hover">
+                                                <!-- Product Add To cart--><a
+                                                    class="btn btn-icon btn-icon-left btn-primary product-btn btn-ellipse offset-top-20"
+                                                    href="#"><span
+                                                        class="fa fa-shopping-cart"></span>Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            
+                            <div id="Specials" class="shopproduct" style="display:none">
+                                <div class="resp-tab-content">
+                                    <div class="range">
+                                        <div class="cell-sm-6 cell-md-3 offset-top-41 offset-sm-top-0">
+                                            <!-- Product-->
+                                            <div class="product product-grid product-grid-type-2">
+                                                <!-- Product Image-->
+                                                <div class="product-image"><img class="img-responsive product-image-area"
+                                                    src="images/productimg2.png" alt="">
+                                                <!-- Product Label--><span
+                                                    class="product-label label-custom label-lg-custom label-rounded-custom label-info">New</span>
+                                                </div>
+                                                <!-- Product Rating-->
+                                                <div class="product-rating offset-top-20">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    </div>
+                                                <!-- Product Title-->
+                                                <div class="product-title offset-top-4 text-primary"><a class="big" href="">Artist Paint
+                                                    Brush Set Nylon Hair Oil
+                                                    Painting Supplies</a></div>
+                                                <!-- Product price-->
+                                                <div class="product-price text-bold offset-top-20"><span class="h5 product-price-new">$124.00</span><span
+                                                    class="product-price-old text-dark">$219.00</span>
+                                                </div>
+                                                <div class="product-block-hover">
+                                                <!-- Product Add To cart--><a
+                                                    class="btn btn-icon btn-icon-left btn-primary product-btn btn-ellipse offset-top-20"
+                                                    href="#"><span class="fa fa-shopping-cart"></span>Add to Cart</a>
+                                                </div>
+                                            </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- upcming workshop -->
+        <section class="context-dark">
+            <div class="parallax-container"
+                data-parallax-img="images/carouselimg1">
+                <div class="material-parallax parallax"><img
+                        src="images/carouselimg1.jpg" alt=""
+                        style="display: block; transform: translate3d(-50%, 83px, 0px);"></div>
+                <div class="parallax-content">
+                    <div class="bg-overlay-gray-darkest">
+                        <div class="shell section-98 section-sm-110">
+                            <div class="text-center">
+                                <h1 class="text-between text-white">Upcoming Workshops</h1>
+                            </div>
+                            <div class="range range-xs-center">
+                                <div class="cell-sm-6 cell-md-5 cell-lg-3">
+                                    <!-- Post Event-->
+                                    <article class="post post-event-type-2">
+                                        <!-- Post media-->
+                                        <header class="post-media"><a href="#"><img src="images/upcomingimg1.jpg"
+                                                    width="270" height="310" alt=""><span
+                                                    class="icon fa fa-info-circle"></span></a>
+                                        </header>
+                                        <!-- Post content-->
+                                        <section class="post-content text-left offset-top-10">
+                                            <!-- Post Body-->
+                                            <div class="post-body">
+                                                <!-- <div class="icon icon-xxs mdi mdi-account text-middle"></div> <span
+                                                    class="text-middle">Julia Flores</span> -->
+                                                <!-- Post Title-->
+                                                <h5 class="offset-top-10"><a href="#">Unplug kids from TVs and Mobile phones</a></h5>
+                                                <h6 class="offset-top-10"><a href="#">Perfect for educators and parents</a></h6>
+                                                
+                                                <!-- Post meta-->
+                                                <div class="post-meta context-dark">
+                                                    <time datetime="2016-01-01"><span
+                                                            class="post-meta-day">22</span><span
+                                                            class="post-meta-month offset-top-4">September</span><span
+                                                            class="post-meta-time">18:00</span></time>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </article>
+                                </div>
+                                <div class="cell-sm-6 cell-md-5 cell-lg-3 offset-top-41 offset-sm-top-0">
+                                    <!-- Post Event-->
+                                    <article class="post post-event-type-2">
+                                        <!-- Post media-->
+                                        <header class="post-media"><a href="#"><img src="images/upcomingimg2.jpg"
+                                                    width="270" height="310" alt=""><span
+                                                    class="icon fa fa-info-circle"></span></a>
+                                        </header>
+                                        <!-- Post content-->
+                                        <section class="post-content text-left offset-top-10">
+                                            <!-- Post Body-->
+                                            <div class="post-body">
+                                                <!-- <div class="icon icon-xxs mdi mdi-account text-middle"></div> <span
+                                                    class="text-middle">Douglas Torres</span> -->
+                                                <!-- Post Title-->
+                                                <h5 class="offset-top-10"><a href="#">Various Monthly and Annual plans available</a></h5>
+                                                <h6 class="offset-top-10"><a href="#"> Delivered right to your doorsteps </a></h6>
+                                                <!-- Post meta-->
+                                                <div class="post-meta context-dark">
+                                                    <time datetime="2016-01-01"><span
+                                                            class="post-meta-day">26</span><span
+                                                            class="post-meta-month offset-top-4">September</span><span
+                                                            class="post-meta-time">18:00</span></time>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </article>
+                                </div>
+                                <div class="range-spacer veil reveal-sm-block veil-lg offset-top-41"></div>
+                                <div class="cell-sm-6 cell-md-5 cell-lg-3 offset-top-41 offset-sm-top-0">
+                                    <!-- Post Event-->
+                                    <article class="post post-event-type-2">
+                                        <!-- Post media-->
+                                        <header class="post-media"><a href="#"><img src="images/upcomingimg3.jpg"
+                                                    width="270" height="310" alt=""><span
+                                                    class="icon fa fa-info-circle"></span></a>
+                                        </header>
+                                        <!-- Post content-->
+                                        <section class="post-content text-left offset-top-10">
+                                            <!-- Post Body-->
+                                            <div class="post-body">
+                                                <!-- <div class="icon icon-xxs mdi mdi-account text-middle"></div> <span
+                                                    class="text-middle">Rose Warren</span> -->
+                                                <!-- Post Title-->
+                                                <h5 class="offset-top-10"><a href="#">Hands on art and craft projects</a></h5>
+                                                <h6 class="offset-top-10"><a href="#"> Beautifully presented with templates</a></h6>
+                                                <!-- Post meta-->
+                                                <div class="post-meta context-dark">
+                                                    <time datetime="2016-01-01"><span
+                                                            class="post-meta-day">22</span><span
+                                                            class="post-meta-month offset-top-4">September</span><span
+                                                            class="post-meta-time">18:00</span></time>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </article>
+                                </div>
+                                <div class="cell-sm-6 cell-md-5 cell-lg-3 offset-top-41 offset-sm-top-0">
+                                    <!-- Post Event-->
+                                    <article class="post post-event-type-2">
+                                        <!-- Post media-->
+                                        <header class="post-media"><a href="#"><img src="images/upcomingimg4.jpg"
+                                                    width="270" height="310" alt=""><span
+                                                    class="icon fa fa-info-circle"></span></a>
+                                        </header>
+                                        <!-- Post content-->
+                                        <section class="post-content text-left offset-top-10">
+                                            <!-- Post Body-->
+                                            <div class="post-body">
+                                                <!-- <div class="icon icon-xxs mdi mdi-account text-middle"></div> <span
+                                                    class="text-middle">Douglas Torres</span> -->
+                                                <!-- Post Title-->
+                                                <h5 class="offset-top-10"><a href="#">Arts Processing Workshop</a></h5>
+                                                <!-- Post meta-->
+                                                <div class="post-meta context-dark">
+                                                    <time datetime="2016-01-01"><span
+                                                            class="post-meta-day">22</span><span
+                                                            class="post-meta-month offset-top-4">September</span><span
+                                                            class="post-meta-time">18:00</span></time>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </article>
+                                </div>
+                            </div>
+                            <div class="range range-xs-center offset-top-66">
+                                <div
+                                    class="cell-xs-10 cell-sm-6 cell-md-5 cell-lg-4 inset-left-50 inset-xs-left-80 inset-right-50 inset-xs-right-80">
+                                    <a class="btn btn-block btn-default btn-ellipse" href="#">view all workshops</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- latest blog post -->
+        <section class="section-98 section-sm-110">
+            <div class="shell">
+                <div class="text-center">
+                    <h1 class="text-between">Latest Blog Posts</h1>
+                </div>
+                <div class="range range-xs-center">
+                    <div class="cell-sm-10 cell-md-6">
+                        <!-- Post Boxed--><a class="reveal-block" href="#">
+                            <div class="post post-boxed">
+                                <!-- Post media-->
+                                <header class="post-media"><img class="img-responsive" 
+                                        src="images/post1.jpg" alt="post1"></header>
+                                <!-- Post content-->
+                                <section class="post-content text-left">
+                                    <div class="post-tags group-xs"><span
+                                            class="label-custom label-lg-custom label-primary">Handmade</span><span
+                                            class="label-custom label-lg-custom label-primary">News</span>
+                                    </div>
+                                    <div class="post-body">
+                                        <!-- Post Title-->
+                                        <div class="post-title">
+                                            <h4 class="text-regular">How To Grow Your Creative Business from Scratch
+                                            </h4>
+                                        </div>
+                                        <div class="post-meta small">
+                                            <ul class="list-inline list-inline-sm p">
+                                                <li class="text-italic text-middle">by&nbsp;<span
+                                                        class="text-warning">Cheryl Crawford</span></li>
+                                                <li>
+                                                    <span class="text-middle"><i class="fa fa-clock-o"></i></span>
+                                                    <time class="text-italic text-warning text-middle"
+                                                        datetime="2016-01-01">2 days ago</time>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cell-sm-10 cell-md-6 offset-top-66 offset-sm-top-30 offset-md-top-0">
+                        <!-- Post Boxed--><a class="reveal-block" href="#">
+                            <div class="post post-boxed">
+                                <!-- Post media-->
+                                <header class="post-media"><img class="img-responsive" 
+                                        src="images/post2.jpg" alt=""></header>
+                                <!-- Post content-->
+                                <section class="post-content text-left">
+                                    <div class="post-tags group-xs"><span
+                                            class="label-custom label-lg-custom label-primary">Handmade</span><span
+                                            class="label-custom label-lg-custom label-primary">News</span>
+                                    </div>
+                                    <div class="post-body">
+                                        <!-- Post Title-->
+                                        <div class="post-title">
+                                            <h4 class="text-regular">How To Prepare For a Creative Conference</h4>
+                                        </div>
+                                        <div class="post-meta small">
+                                            <ul class="list-inline list-inline-sm p">
+                                                <li class="text-italic text-middle">by&nbsp;<span
+                                                        class="text-warning">Cheryl Crawford</span></li>
+                                                <li><span class="text-middle"><i class="fa fa-clock-o"></i></span>
+                                                    <time class="text-italic text-warning text-middle"
+                                                        datetime="2016-01-01">2 days ago</time>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="range-spacer veil reveal-md-block offset-top-30"></div>
+                    <div class="cell-sm-10 cell-md-6 offset-top-66 offset-sm-top-30 offset-md-top-0">
+                        <!-- Post Boxed--><a class="reveal-block" href="#">
+                            <div class="post post-boxed">
+                                <!-- Post media-->
+                                <header class="post-media"><img class="img-responsive"
+                                        src="images/post3.jpg" alt=""></header>
+                                <!-- Post content-->
+                                <section class="post-content text-left">
+                                    <div class="post-tags group-xs"><span
+                                            class="label-custom label-lg-custom label-primary">Handmade</span><span
+                                            class="label-custom label-lg-custom label-primary">News</span>
+                                    </div>
+                                    <div class="post-body">
+                                        <!-- Post Title-->
+                                        <div class="post-title">
+                                            <h4 class="text-regular">Arts and Toys For Learning and Play</h4>
+                                        </div>
+                                        <div class="post-meta small">
+                                            <ul class="list-inline list-inline-sm p">
+                                                <li class="text-italic text-middle">by&nbsp;<span
+                                                        class="text-warning">Jack George</span></li>
+                                                <li><span class="text-middle"><i class="fa fa-clock-o"></i></span>
+                                                    <time class="text-italic text-warning text-middle"
+                                                        datetime="2016-01-01">2 days ago</time>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cell-sm-10 cell-md-6 offset-top-66 offset-sm-top-30 offset-md-top-0">
+                        <!-- Post Boxed--><a class="reveal-block" href="#">
+                            <div class="post post-boxed">
+                                <!-- Post media-->
+                                <header class="post-media"><img class="img-responsive" 
+                                        src="images/post4.jpg" alt=""></header>
+                                <!-- Post content-->
+                                <section class="post-content text-left">
+                                    <div class="post-tags group-xs"><span
+                                            class="label-custom label-lg-custom label-primary">Handmade</span><span
+                                            class="label-custom label-lg-custom label-primary">Textile</span>
+                                    </div>
+                                    <div class="post-body">
+                                        <!-- Post Title-->
+                                        <div class="post-title">
+                                            <h4 class="text-regular">Alpha Custom Rugs' Ashram</h4>
+                                        </div>
+                                        <div class="post-meta small">
+                                            <ul class="list-inline list-inline-sm p">
+                                                <li class="text-italic text-middle">by&nbsp;<span
+                                                        class="text-warning">Barbara Hunt</span></li>
+                                                <li><span class="text-middle "><i class="fa fa-clock-o"></i></span>
+                                                    <time class="text-italic text-warning text-middle"
+                                                        datetime="2016-01-01">2 days ago</time>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="range range-xs-center offset-top-66">
+                        <div
+                            class="cell-xs-10 cell-sm-6 cell-md-5 cell-lg-4 inset-left-50 inset-xs-left-80 inset-right-50 inset-xs-right-80">
+                            <a class="btn btn-block btn-primary btn-ellipse" href="#">view all blog posts</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <a href="#" id="ui-to-top" class="ui-to-top icon icon-xs icon-circle icon-darker-filled fas fa-angle-up active"  ></a>   
+   <!-- kiran -->
+   <!-- https://bbbootstrap.com/snippets/bootstrap-simple-footer-template-68853430 -->
+    <div class="container-fluid mt-5">
+        <div class="footer_card bg-white">
+            <div class="row mb-4">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <div class="pull-left">
+                        <div class="d-flex">
+                            <img src="images/imagiobox_logo.png" alt="logo" width="200px">
+                            <!-- <h1 class="footer_about" style="color: #957bda">AVES</h1> -->
+                        </div>
+                        <p class="card-text">AVES Academy aims at developing a better environment where the current learning process could be made more interactive as well as fun generative with the help of cretive thinking through arts and other contemporary educational methods.</p>
+                        <div class="social mt-2 mb-3"> <i class="fa fa-facebook-official fa-lg"></i> <i class="fa fa-instagram fa-lg"></i> <i class="fa fa-twitter fa-lg"></i> <i class="fa fa-linkedin-square fa-lg"></i> <i class="fa fa-facebook"></i> </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-2"></div>
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <h5 class="heading_footer">Services</h5>
+                    <ul class="footer_link">
+                        <li>IT Consulting</li>
+                        <li>Development</li>
+                        <li>Cloud</li>
+                        <li>Support</li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <h5 class="heading_footer">Industries</h5>
+                    <ul class="footer_link">
+                        <li>Finance</li>
+                        <li>Public Sector</li>
+                        <li>Smart Office</li>
+                        <li>Retail</li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <h5 class="heading_footer">Company</h5>
+                    <ul class="footer_link">
+                        <li>About Us</li>
+                        <li>Blog</li>
+                        <li>Contact</li>
+                        <li>Join Us</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_divider mb-4"> </div>
+            <div class="row" style="font-size:10px;">
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <div class="pull-left">
+                        <p><i class="fa fa-copyright"></i> Made by AVES Academy 2018. All Rights Reserved</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <div class="pull-right mr-4 d-flex policy">
+                        <div>Terms of Use</div>
+                        <div>Privacy Policy</div>
+                        <div>Cookie Policy</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function openProducts(evt, cityName) {
+          var i, x, tablinks;
+          x = document.getElementsByClassName("shopproduct");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablink");
+          for (i = 0; i < x.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" w3-reding", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " w3-reding";
+        }
+      </script>
+      <script>
+        window.onscroll = function() {myFunction()};
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
+        
+<script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+</body>
+
+</html>
